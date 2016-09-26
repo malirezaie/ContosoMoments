@@ -22,7 +22,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>Contoso Moments</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.contoso.ContosoMoments</string>
+	<string>com.mahdia.ContosoMoments</string>
 	<key>CFBundleVersion</key>
 	<string>1.1</string>
 	<key>CFBundleIconFiles</key>
@@ -115,12 +115,12 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb189306414759717</string>
+				<string>fb100975710368275</string>
 			</array>
 		</dict>
 	</array>
 	<key>FacebookAppID</key>
-	<string>189306414759717</string>
+	<string>100975710368275</string>
 	<key>FacebookDisplayName</key>
 	<string>ContosoMoments</string>
 	<key>LSApplicationQueriesSchemes</key>
@@ -132,5 +132,7 @@
 	</array>
 	<key>UIRequiresFullScreen</key>
 	<string>YES</string>
+	<key>CFBundleName</key>
+	<string>Contoso Moments</string>
 </dict>
 </plist>

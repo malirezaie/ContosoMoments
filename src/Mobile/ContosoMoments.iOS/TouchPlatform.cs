@@ -93,7 +93,11 @@ namespace ContosoMoments.iOS
             }
             else { 
                 Debug.WriteLine("Starting Facebook client flow");
-                loginManager.LogInWithReadPermissions(new[] { "public_profile" }, view, LoginTokenHandler);
+				loginManager.LogInWithReadPermissions(new[] { "public_profile" }, view, LoginTokenHandler);
+
+				//user = await App.Instance.MobileService.LoginAsync(view, MobileServiceAuthenticationProvider.Facebook);
+
+				var j = 10;
             }
 
             return await tcs.Task;
